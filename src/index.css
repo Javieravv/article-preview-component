@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Triángulo */
+.triangulo::after {
+    clip-path: polygon(50% 100%, 40% 0, 60% 0);
+    
+}
